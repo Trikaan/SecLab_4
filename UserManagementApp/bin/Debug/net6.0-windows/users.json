@@ -7,10 +7,10 @@
       "PasswordRestricted": false
     },
     {
-      "Username": "VladOst",
-      "Password": "VladOst1_",
+      "Username": "Artem Pashketnik",
+      "Password": "1111",
       "IsBlocked": false,
-      "PasswordRestricted": true
+      "PasswordRestricted": false
     }
   ]
 }

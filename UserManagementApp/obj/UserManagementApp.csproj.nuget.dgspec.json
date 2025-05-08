@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\TZI_UserManagementApp\\UserManagementApp\\UserManagementApp.csproj": {}
+    "C:\\Users\\Cinnareth\\Desktop\\SecLab_4\\UserManagementApp\\UserManagementApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\TZI_UserManagementApp\\UserManagementApp\\UserManagementApp.csproj": {
+    "C:\\Users\\Cinnareth\\Desktop\\SecLab_4\\UserManagementApp\\UserManagementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TZI_UserManagementApp\\UserManagementApp\\UserManagementApp.csproj",
+        "projectUniqueName": "C:\\Users\\Cinnareth\\Desktop\\SecLab_4\\UserManagementApp\\UserManagementApp.csproj",
         "projectName": "UserManagementApp",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TZI_UserManagementApp\\UserManagementApp\\UserManagementApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TZI_UserManagementApp\\UserManagementApp\\obj\\",
+        "projectPath": "C:\\Users\\Cinnareth\\Desktop\\SecLab_4\\UserManagementApp\\UserManagementApp.csproj",
+        "packagesPath": "C:\\Users\\Cinnareth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cinnareth\\Desktop\\SecLab_4\\UserManagementApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cinnareth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -56,6 +66,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -64,7 +92,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
