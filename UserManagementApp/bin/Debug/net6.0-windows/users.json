@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "Username": "ADMIN",
+      "Password": "admin",
+      "IsBlocked": false,
+      "PasswordRestricted": false
+    },
+    {
+      "Username": "VladOst",
+      "Password": "VladOst1_",
+      "IsBlocked": false,
+      "PasswordRestricted": true
+    }
+  ]
+}
